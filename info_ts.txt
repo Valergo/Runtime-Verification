@@ -1,0 +1,28 @@
+> tsc --init
+> create src folder
+
+# on tsconfig
+	> "rootDir": "./src"
+	> "outDir": ",/dist"
+	> "removeComments": true
+
+# compile
+	> tsc
+# run code
+	> node file
+
+
+# NODE:
+Schritt 1: Node.js und npm installieren
+Installieren Sie Node.js und npm mit einem einfachen Befehl:
+sudo apt install nodejs npm -y
+Dies installiert beide Pakete.
+
+Schritt 2: Installation überprüfen
+Überprüfen Sie die Installation durch Anzeigen der Versionen:
+nodejs --version && npm --version
+
+NEEDS: (as shown bevore)
+-- create src and dist dir
+-- install modules 
+-- config json
